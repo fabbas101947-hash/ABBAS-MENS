@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abbas Men | Modern Menswear</title>
+  <meta name="description" content="Shop modern men's clothing at Abbas Men: tees, hoodies, jackets, pants, and accessories built for everyday style." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+
+  <header class="site-header">
+    <a href="home.html" class="brand"><img src="ABBAS MEN Logo.png" alt="" width="100px"></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+    <nav class="site-nav" id="siteNav">
+      <a href="home.html" class="active">Home</a>
+      <a href="new-arrival.html">New Arrival</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="cart-button" id="openCartBtn" aria-label="Open cart">
+      Cart <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-content">
+        <p class="hero-kicker">Men's Spring 2026</p>
+        <h1>Sharp Fits for Every Day and Every Season</h1>
+        <p class="hero-copy">From premium basics to statement layers, Abbas Men delivers clean silhouettes, breathable fabrics, and confident everyday style.</p>
+        <a class="cta" href="#products">Shop Men's Collection</a>
+      </div>
+      <div class="hero-media">
+        <img src="hoodies.webp" alt="Men's premium hoodie collection" />
+      </div>
+    </section>
+
+    <section class="filters reveal" id="products">
+      <h2>Shop by Category</h2>
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="shirts">Shirts</button>
+        <button class="filter-btn" data-filter="hoodies">Hoodies</button>
+        <button class="filter-btn" data-filter="jackets">Jackets</button>
+        <button class="filter-btn" data-filter="pants">Pants</button>
+      </div>
+    </section>
+
+    <section class="product-grid reveal" id="productGrid">
+      <article class="product-card" data-category="shirts">
+        <img src="t-shirt-for-men-boys- 1.webp" alt="Men's black essential t-shirt" />
+        <div class="product-body">
+          <p class="product-tag">Shirts</p>
+          <h3>Essential Crew Tee</h3>
+          <p class="price">$34</p>
+          <button class="add-to-cart" data-id="p1" data-name="Essential Crew Tee" data-price="34">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="hoodies">
+        <img src="hoodies 2.jpg" alt="Oversized grey hoodie" />
+        <div class="product-body">
+          <p class="product-tag">Hoodies</p>
+          <h3>Urban Oversized Hoodie</h3>
+          <p class="price">$74</p>
+          <button class="add-to-cart" data-id="p2" data-name="Urban Oversized Hoodie" data-price="74">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jackets">
+        <img src="BLACK_1.jpg" alt="Slim fit men's jacket" />
+        <div class="product-body">
+          <p class="product-tag">Jackets</p>
+          <h3>Core Slim Jacket</h3>
+          <p class="price">$119</p>
+          <button class="add-to-cart" data-id="p3" data-name="Core Slim Jacket" data-price="119">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="pants">
+        <img src="DRESS_PANTS_NAVY.avif" alt="Men's tapered trousers" />
+        <div class="product-body">
+          <p class="product-tag">Pants</p>
+          <h3>Tailored Taper Pants</h3>
+          <p class="price">$68</p>
+          <button class="add-to-cart" data-id="p4" data-name="Tailored Taper Pants" data-price="68">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="shirts">
+        <img src="polo.jpg" alt="Men's polo shirt" />
+        <div class="product-body">
+          <p class="product-tag">Shirts</p>
+          <h3>Signature Knit Polo</h3>
+          <p class="price">$52</p>
+          <button class="add-to-cart" data-id="p5" data-name="Signature Knit Polo" data-price="52">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="hoodies">
+        <img src="hoodies_AC_.jpg" alt="Men's zip hoodie" />
+        <div class="product-body">
+          <p class="product-tag">Hoodies</p>
+          <h3>Weekend Zip Hoodie</h3>
+          <p class="price">$79</p>
+          <button class="add-to-cart" data-id="p6" data-name="Weekend Zip Hoodie" data-price="79">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jackets">
+        <img src="CHARCOAl.webp" alt="Men's bomber jacket" />
+        <div class="product-body">
+          <p class="product-tag">Jackets</p>
+          <h3>City Bomber Jacket</h3>
+          <p class="price">$132</p>
+          <button class="add-to-cart" data-id="p7" data-name="City Bomber Jacket" data-price="132">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="pants">
+        <img src="EXLTD-M-AERO-JOGGERS-GREY.jpg" alt="Men's performance joggers" />
+        <div class="product-body">
+          <p class="product-tag">Pants</p>
+          <h3>Aero Performance Joggers</h3>
+          <p class="price">$58</p>
+          <button class="add-to-cart" data-id="p8" data-name="Aero Performance Joggers" data-price="58">Add to Cart</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="benefits reveal">
+      <article>
+        <h3>Premium Fabrics</h3>
+        <p>Soft-touch cotton blends and structured materials that hold shape.</p>
+      </article>
+      <article>
+        <h3>Fast Shipping</h3>
+        <p>Dispatch in 24 hours with tracking on every order.</p>
+      </article>
+      <article>
+        <h3>Easy Returns</h3>
+        <p>7-day return support for size changes and fit concerns.</p>
+      </article>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="closeCartBtn" aria-label="Close cart">Close</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer">
+      <p>Total: <strong id="cartTotal">$0</strong></p>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </aside>
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <footer class="site-footer">
+    <p>2026 Abbas Men. Precision in every stitch.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
